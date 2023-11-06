@@ -1,0 +1,38 @@
+{
+	"ProjectName": "ZMODSSAM",
+	"ApplicationName": "ZSAM2305",
+	"IntegrationPoints": [
+		{
+			"Source": "/ZSAM2305/Pages/Overview.page",
+			"Target": "/SAPAssetManager/Pages/Overview.page"
+		},
+		{
+			"Source": "/ZSAM2305/Pages/WorkOrders/WorkOrderDetails.page",
+			"Target": "/SAPAssetManager/Pages/WorkOrders/WorkOrderDetails.page"
+		},
+		{
+			"Source": "/ZSAM2305/Rules/WorkOrders/WorkOrderLibrary.js",
+			"Target": "/SAPAssetManager/Rules/WorkOrders/WorkOrderLibrary.js"
+		},
+		{
+			"Source": "/ZSAM2305/Rules/WorkOrders/ListView/WorkOrdersListViewQueryOption.js",
+			"Target": "/SAPAssetManager/Rules/WorkOrders/ListView/WorkOrdersListViewQueryOption.js"
+		},
+		{
+			"Source": "/ZSAM2305/Rules/WorkOrders/ListView/WorkOrderListViewDescription.js",
+			"Target": "/SAPAssetManager/Rules/WorkOrders/ListView/WorkOrderListViewDescription.js"
+		},
+		{
+			"Source": "/ZSAM2305/Pages/SideMenuDrawer.page",
+			"Target": "/SAPAssetManager/Pages/SideMenuDrawer.page"
+		},
+		{
+			"Source": "/ZSAM2305/i18n/i18n_en.properties",
+			"Target": "/SAPAssetManager/i18n/i18n_en.properties"
+		},
+		{
+			"Source": "/ZSAM2305/Rules/OverviewPage/OverviewOnPageLoad.js",
+			"Target": "/SAPAssetManager/Rules/OverviewPage/OverviewOnPageLoad.js"
+		}
+	]
+}
