@@ -33,6 +33,10 @@
 		{
 			"Source": "/ZSAM2305/Rules/OverviewPage/OverviewOnPageLoad.js",
 			"Target": "/SAPAssetManager/Rules/OverviewPage/OverviewOnPageLoad.js"
+		},
+		{
+			"Source": "/ZSAM2305/Rules/Maps/Icons/IconUtils.js",
+			"Target": "/SAPAssetManager/Rules/Maps/Icons/IconUtils.js"
 		}
 	]
 }
