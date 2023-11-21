@@ -37,6 +37,10 @@
 		{
 			"Source": "/ZSAM2305/Rules/Maps/Icons/IconUtils.js",
 			"Target": "/SAPAssetManager/Rules/Maps/Icons/IconUtils.js"
+		},
+		{
+			"Source": "/ZSAM2305/Pages/WorkOrders/Operations/WorkOrderOperationDetails.page",
+			"Target": "/SAPAssetManager/Pages/WorkOrders/Operations/WorkOrderOperationDetails.page"
 		}
 	]
 }
